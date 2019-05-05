@@ -1,0 +1,13 @@
+{  
+   "product": {
+     "nutrient_levels": {
+       "salt": "moderate",
+       "saturated-fat": "low",
+       "fat": "moderate",
+       "sugars": "moderate"
+     }
+   },
+   "status":1,
+   "code":"3029330003533",
+   "status_verbose":"product found"
+}

@@ -1,0 +1,1074 @@
+{
+  "image_ingredients_url": "https://static.openfoodfacts.org/images/products/302/933/000/3533/ingredients_fr.99.400.jpg",
+  "categories": "Aliments et boissons à base de végétaux, Aliments d'origine végétale, Céréales et pommes de terre, Pains, Pains de mie, Pains de mie complet",
+  "rev": 103,
+  "traces_from_user": "(fr)Œufs,Lait,Graines de sésame,Soja",
+  "pnns_groups_2": "Bread",
+  "origins": "France",
+  "completed_t": 1350567513,
+  "image_url": "https://static.openfoodfacts.org/images/products/302/933/000/3533/front_fr.96.400.jpg",
+  "photographers": [
+    "manu1400"
+  ],
+  "pnns_groups_1_tags": [
+    "cereals-and-potatoes",
+    "known"
+  ],
+  "countries_lc": "fr",
+  "ingredients_from_palm_oil_tags": [
+
+  ],
+  "stores_tags": [
+    "carrefour"
+  ],
+  "_id": "3029330003533",
+  "ingredients_text_debug": "Farine complète de _blé_ (58%), eau, sucre, huile de colza, farine de _blé_, _gluten de blé_, arôme, sel, levure",
+  "ingredients_tags": [
+    "de:vollkornweizenmehl",
+    "en:cereal",
+    "en:wheat",
+    "en:cereal-flour",
+    "en:wheat-flour",
+    "en:wholemeal-flour",
+    "en:water",
+    "en:sugar",
+    "en:colza-oil",
+    "en:oil",
+    "en:oil-and-vegetable-fat",
+    "en:vegetable-oil",
+    "fr:gluten-de-ble",
+    "en:flavouring",
+    "en:salt",
+    "en:yeast"
+  ],
+  "vitamins_prev_tags": [
+
+  ],
+  "countries_hierarchy": [
+    "en:france"
+  ],
+  "ingredients_that_may_be_from_palm_oil_n": 0,
+  "additives_prev_n": 0,
+  "manufacturing_places": "France",
+  "last_image_dates_tags": [
+    "2018-08-27",
+    "2018-08",
+    "2018"
+  ],
+  "brands_tags": [
+    "jacquet"
+  ],
+  "stores_debug_tags": [
+
+  ],
+  "manufacturing_places_debug_tags": [
+
+  ],
+  "amino_acids_prev_tags": [
+
+  ],
+  "allergens_tags": [
+    "en:gluten"
+  ],
+  "packaging_tags": [
+    "sac",
+    "plastique",
+    "clip",
+    "metal"
+  ],
+  "traces_hierarchy": [
+    "en:eggs",
+    "en:milk",
+    "en:sesame-seeds",
+    "en:soybeans"
+  ],
+  "categories_lc": "fr",
+  "lang": "fr",
+  "traces_from_ingredients": "",
+  "additives": " [ farine-complete-de-ble -> fr:farine-complete-de-ble  ]  [ farine-complete-de -> fr:farine-complete-de  ]  [ farine-complete -> fr:farine-complete  ]  [ farine -> fr:farine  ]  [ 58 -> fr:58  ]  [ eau -> fr:eau  ]  [ sucre -> fr:sucre  ]  [ huile-de-colza -> fr:huile-de-colza  ]  [ huile-de -> fr:huile-de  ]  [ huile -> fr:huile  ]  [ farine-de-ble -> fr:farine-de-ble  ]  [ farine-de -> fr:farine-de  ]  [ farine -> fr:farine  ]  [ gluten-de-ble -> fr:gluten-de-ble  ]  [ gluten-de -> fr:gluten-de  ]  [ gluten -> fr:gluten  ]  [ arome -> fr:arome  ]  [ sel -> fr:sel  ]  [ levure -> fr:levure  ] ",
+  "nutrient_levels": {
+    "salt": "moderate",
+    "saturated-fat": "low",
+    "fat": "moderate",
+    "sugars": "moderate"
+  },
+  "labels_hierarchy": [
+    "en:no-additives",
+    "en:palm-oil-free"
+  ],
+  "emb_codes_orig": "",
+  "brands_debug_tags": [
+
+  ],
+  "languages_tags": [
+    "en:french",
+    "en:1"
+  ],
+  "codes_tags": [
+    "code-13",
+    "3029330003xxx",
+    "302933000xxxx",
+    "30293300xxxxx",
+    "3029330xxxxxx",
+    "302933xxxxxxx",
+    "30293xxxxxxxx",
+    "3029xxxxxxxxx",
+    "302xxxxxxxxxx",
+    "30xxxxxxxxxxx",
+    "3xxxxxxxxxxxx"
+  ],
+  "image_front_small_url": "https://static.openfoodfacts.org/images/products/302/933/000/3533/front_fr.96.200.jpg",
+  "new_additives_n": 0,
+  "countries": "France",
+  "nutrition_data_prepared": "",
+  "product_quantity": 730,
+  "nutrition_score_debug": " -- energy 3 + sat-fat 0 + fr-sat-fat-for-fats 0 + sugars 1 + sodium 5 - fruits 0% 0 - fiber 5 - proteins 5 -- fsa -1 -- fr -1",
+  "nutrition_score_warning_no_fruits_vegetables_nuts": 1,
+  "nutrition_grades_tags": [
+    "a"
+  ],
+  "nova_group_debug": " -- ingredients/en:sugar : 3 -- ingredients/en:flavouring : 4",
+  "debug_param_sorted_langs": [
+    "fr"
+  ],
+  "serving_quantity": 60.8,
+  "states": "en:to-be-checked, en:complete, en:nutrition-facts-completed, en:ingredients-completed, en:expiration-date-completed, en:packaging-code-to-be-completed, en:characteristics-completed, en:categories-completed, en:brands-completed, en:packaging-completed, en:quantity-completed, en:product-name-completed, en:photos-validated, en:photos-uploaded",
+  "complete": 1,
+  "allergens_debug_tags": [
+
+  ],
+  "entry_dates_tags": [
+    "2012-05-26",
+    "2012-05",
+    "2012"
+  ],
+  "emb_codes": "",
+  "ingredients_text": "Farine complète de _blé_ (58%), eau, sucre, huile de colza, farine de _blé_, _gluten de blé_, arôme, sel, levure",
+  "nucleotides_tags": [
+
+  ],
+  "images": {
+    "nutrition": {
+      "imgid": "7",
+      "geometry": "1520x1760-90-758",
+      "normalize": "false",
+      "sizes": {
+        "400": {
+          "h": 400,
+          "w": 345
+        },
+        "100": {
+          "h": 100,
+          "w": 86
+        },
+        "200": {
+          "w": 173,
+          "h": 200
+        },
+        "full": {
+          "h": 1760,
+          "w": 1520
+        }
+      },
+      "white_magic": "false",
+      "rev": "92"
+    },
+    "nutrition_fr": {
+      "imgid": "10",
+      "geometry": "1025x1830-229-24",
+      "x2": "250.828125",
+      "y2": "370.8125",
+      "y1": "4.8125",
+      "rev": "101",
+      "sizes": {
+        "full": {
+          "h": 1830,
+          "w": 1025
+        },
+        "400": {
+          "h": 400,
+          "w": 224
+        },
+        "200": {
+          "w": 112,
+          "h": 200
+        },
+        "100": {
+          "w": 56,
+          "h": 100
+        }
+      },
+      "normalize": "false",
+      "white_magic": "false",
+      "x1": "45.828125",
+      "angle": "0"
+    },
+    "front": {
+      "geometry": "1573x2619-163-13",
+      "imgid": "5",
+      "normalize": "false",
+      "sizes": {
+        "full": {
+          "w": 1573,
+          "h": 2619
+        },
+        "100": {
+          "h": 100,
+          "w": 60
+        },
+        "200": {
+          "h": 200,
+          "w": 120
+        },
+        "400": {
+          "h": 400,
+          "w": 240
+        }
+      },
+      "rev": "90",
+      "white_magic": "false"
+    },
+    "ingredients_fr": {
+      "x1": "48.828125",
+      "angle": "0",
+      "white_magic": "false",
+      "normalize": "false",
+      "sizes": {
+        "full": {
+          "h": 535,
+          "w": 1090
+        },
+        "400": {
+          "h": 196,
+          "w": 400
+        },
+        "200": {
+          "w": 200,
+          "h": 98
+        },
+        "100": {
+          "w": 100,
+          "h": 49
+        }
+      },
+      "y1": "48.8125",
+      "rev": "99",
+      "y2": "155.8125",
+      "x2": "266.828125",
+      "imgid": "9",
+      "geometry": "1090x535-244-244"
+    },
+    "9": {
+      "uploader": "ag55",
+      "sizes": {
+        "full": {
+          "h": 2000,
+          "w": 1500
+        },
+        "400": {
+          "h": 400,
+          "w": 300
+        },
+        "100": {
+          "w": 75,
+          "h": 100
+        }
+      },
+      "uploaded_t": 1535357229
+    },
+    "3": {
+      "uploader": "andre",
+      "sizes": {
+        "full": {
+          "h": 600,
+          "w": 737
+        },
+        "400": {
+          "h": 326,
+          "w": 400
+        },
+        "100": {
+          "h": 81,
+          "w": 100
+        }
+      },
+      "uploaded_t": 1338047175
+    },
+    "7": {
+      "uploaded_t": "1446228250",
+      "sizes": {
+        "400": {
+          "w": 300,
+          "h": 400
+        },
+        "100": {
+          "w": 75,
+          "h": 100
+        },
+        "full": {
+          "w": 2000,
+          "h": 2666
+        }
+      },
+      "uploader": "phoenix"
+    },
+    "2": {
+      "uploaded_t": 1338046983,
+      "uploader": "andre",
+      "sizes": {
+        "full": {
+          "w": 2030,
+          "h": 2975
+        },
+        "100": {
+          "w": 68,
+          "h": 100
+        },
+        "400": {
+          "w": 273,
+          "h": 400
+        }
+      }
+    },
+    "ingredients": {
+      "imgid": "6",
+      "geometry": "1593x619-190-1325",
+      "normalize": "false",
+      "sizes": {
+        "full": {
+          "h": 619,
+          "w": 1593
+        },
+        "100": {
+          "h": 39,
+          "w": 100
+        },
+        "200": {
+          "w": 200,
+          "h": 78
+        },
+        "400": {
+          "h": 155,
+          "w": 400
+        }
+      },
+      "rev": "91",
+      "white_magic": "false"
+    },
+    "5": {
+      "sizes": {
+        "100": {
+          "h": 100,
+          "w": 75
+        },
+        "400": {
+          "w": 300,
+          "h": 400
+        },
+        "full": {
+          "h": 2666,
+          "w": 2000
+        }
+      },
+      "uploader": "phoenix",
+      "uploaded_t": "1446228204"
+    },
+    "8": {
+      "sizes": {
+        "full": {
+          "w": 1500,
+          "h": 2000
+        },
+        "100": {
+          "w": 75,
+          "h": 100
+        },
+        "400": {
+          "h": 400,
+          "w": 300
+        }
+      },
+      "uploader": "ag55",
+      "uploaded_t": 1535357185
+    },
+    "6": {
+      "sizes": {
+        "400": {
+          "w": 300,
+          "h": 400
+        },
+        "100": {
+          "w": 75,
+          "h": 100
+        },
+        "full": {
+          "h": 2666,
+          "w": 2000
+        }
+      },
+      "uploader": "phoenix",
+      "uploaded_t": "1446228224"
+    },
+    "front_fr": {
+      "x2": "279.828125",
+      "y2": "382.8125",
+      "y1": "2.8125",
+      "rev": "96",
+      "geometry": "1285x1900-114-14",
+      "imgid": "8",
+      "white_magic": "false",
+      "x1": "22.828125",
+      "angle": "0",
+      "normalize": "false",
+      "sizes": {
+        "full": {
+          "h": 1900,
+          "w": 1285
+        },
+        "100": {
+          "h": 100,
+          "w": 68
+        },
+        "200": {
+          "h": 200,
+          "w": 135
+        },
+        "400": {
+          "w": 271,
+          "h": 400
+        }
+      }
+    },
+    "1": {
+      "uploaded_t": 1338046925,
+      "sizes": {
+        "full": {
+          "w": 638,
+          "h": 346
+        },
+        "100": {
+          "w": 100,
+          "h": 54
+        },
+        "400": {
+          "w": 400,
+          "h": 217
+        }
+      },
+      "uploader": "andre"
+    },
+    "10": {
+      "uploaded_t": 1535357260,
+      "sizes": {
+        "400": {
+          "h": 400,
+          "w": 300
+        },
+        "100": {
+          "h": 100,
+          "w": 75
+        },
+        "full": {
+          "h": 2000,
+          "w": 1500
+        }
+      },
+      "uploader": "ag55"
+    },
+    "4": {
+      "uploaded_t": 1338047295,
+      "sizes": {
+        "400": {
+          "h": 383,
+          "w": 400
+        },
+        "100": {
+          "w": 100,
+          "h": 96
+        },
+        "full": {
+          "h": 716,
+          "w": 748
+        }
+      },
+      "uploader": "andre"
+    }
+  },
+  "additives_n": 0,
+  "ingredients_hierarchy": [
+    "de:vollkornweizenmehl",
+    "en:cereal",
+    "en:wheat",
+    "en:cereal-flour",
+    "en:wheat-flour",
+    "en:wholemeal-flour",
+    "en:water",
+    "en:sugar",
+    "en:colza-oil",
+    "en:oil",
+    "en:oil-and-vegetable-fat",
+    "en:vegetable-oil",
+    "fr:gluten-de-ble",
+    "en:flavouring",
+    "en:salt",
+    "en:yeast"
+  ],
+  "serving_size_debug_tags": [
+
+  ],
+  "last_image_t": 1535357261,
+  "languages_codes": {
+    "fr": 6
+  },
+  "pnns_groups_2_tags": [
+    "bread",
+    "known"
+  ],
+  "traces_tags": [
+    "en:eggs",
+    "en:milk",
+    "en:sesame-seeds",
+    "en:soybeans"
+  ],
+  "states_hierarchy": [
+    "en:to-be-checked",
+    "en:complete",
+    "en:nutrition-facts-completed",
+    "en:ingredients-completed",
+    "en:expiration-date-completed",
+    "en:packaging-code-to-be-completed",
+    "en:characteristics-completed",
+    "en:categories-completed",
+    "en:brands-completed",
+    "en:packaging-completed",
+    "en:quantity-completed",
+    "en:product-name-completed",
+    "en:photos-validated",
+    "en:photos-uploaded"
+  ],
+  "checkers": [
+
+  ],
+  "image_thumb_url": "https://static.openfoodfacts.org/images/products/302/933/000/3533/front_fr.96.100.jpg",
+  "interface_version_modified": "20150316.jqm2",
+  "pnns_groups_1": "Cereals and potatoes",
+  "nova_group": "4",
+  "languages": {
+    "en:french": 6
+  },
+  "emb_code": "",
+  "states_tags": [
+    "en:to-be-checked",
+    "en:complete",
+    "en:nutrition-facts-completed",
+    "en:ingredients-completed",
+    "en:expiration-date-completed",
+    "en:packaging-code-to-be-completed",
+    "en:characteristics-completed",
+    "en:categories-completed",
+    "en:brands-completed",
+    "en:packaging-completed",
+    "en:quantity-completed",
+    "en:product-name-completed",
+    "en:photos-validated",
+    "en:photos-uploaded"
+  ],
+  "selected_images": {
+    "ingredients": {
+      "thumb": {
+        "fr": "https://static.openfoodfacts.org/images/products/302/933/000/3533/ingredients_fr.99.100.jpg"
+      },
+      "small": {
+        "fr": "https://static.openfoodfacts.org/images/products/302/933/000/3533/ingredients_fr.99.200.jpg"
+      },
+      "display": {
+        "fr": "https://static.openfoodfacts.org/images/products/302/933/000/3533/ingredients_fr.99.400.jpg"
+      }
+    },
+    "front": {
+      "display": {
+        "fr": "https://static.openfoodfacts.org/images/products/302/933/000/3533/front_fr.96.400.jpg"
+      },
+      "thumb": {
+        "fr": "https://static.openfoodfacts.org/images/products/302/933/000/3533/front_fr.96.100.jpg"
+      },
+      "small": {
+        "fr": "https://static.openfoodfacts.org/images/products/302/933/000/3533/front_fr.96.200.jpg"
+      }
+    },
+    "nutrition": {
+      "small": {
+        "fr": "https://static.openfoodfacts.org/images/products/302/933/000/3533/nutrition_fr.101.200.jpg"
+      },
+      "thumb": {
+        "fr": "https://static.openfoodfacts.org/images/products/302/933/000/3533/nutrition_fr.101.100.jpg"
+      },
+      "display": {
+        "fr": "https://static.openfoodfacts.org/images/products/302/933/000/3533/nutrition_fr.101.400.jpg"
+      }
+    }
+  },
+  "ingredients_debug": [
+    "Farine complète de _blé_ ",
+    "(",
+    "(",
+    null,
+    null,
+    "58%)",
+    ",",
+    null,
+    null,
+    null,
+    " eau",
+    ",",
+    null,
+    null,
+    null,
+    " sucre",
+    ",",
+    null,
+    null,
+    null,
+    " huile de colza",
+    ",",
+    null,
+    null,
+    null,
+    " farine de _blé_",
+    ",",
+    null,
+    null,
+    null,
+    " _gluten de blé_",
+    ",",
+    null,
+    null,
+    null,
+    " arôme",
+    ",",
+    null,
+    null,
+    null,
+    " sel",
+    ",",
+    null,
+    null,
+    null,
+    " levure"
+  ],
+  "link_debug_tags": [
+
+  ],
+  "additives_original_tags": [
+
+  ],
+  "traces": "en:eggs,en:milk,en:sesame-seeds,en:soybeans",
+  "generic_name": "Pain de mie complet",
+  "editors": [
+    "",
+    "nioff",
+    "phoenix",
+    "manu1400",
+    "andre",
+    "stephane"
+  ],
+  "product_name_fr_debug_tags": [
+
+  ],
+  "no_nutrition_data": "",
+  "labels_prev_hierarchy": [
+    "en:no-additives",
+    "en:palm-oil-free"
+  ],
+  "nutrition_data_prepared_per_debug_tags": [
+
+  ],
+  "ingredients_ids_debug": [
+    "farine-complete-de-ble",
+    "58",
+    "eau",
+    "sucre",
+    "huile-de-colza",
+    "farine-de-ble",
+    "gluten-de-ble",
+    "arome",
+    "sel",
+    "levure"
+  ],
+  "nutrition_score_beverage": 0,
+  "ingredients_that_may_be_from_palm_oil_tags": [
+
+  ],
+  "correctors_tags": [
+    "andre",
+    "manu1400",
+    "stephane",
+    "nioff",
+    "openfoodfacts-contributors",
+    "phoenix",
+    "ag55",
+    "kiliweb"
+  ],
+  "unknown_nutrients_tags": [
+
+  ],
+  "image_front_url": "https://static.openfoodfacts.org/images/products/302/933/000/3533/front_fr.96.400.jpg",
+  "nutrition_grade_fr": "a",
+  "minerals_tags": [
+
+  ],
+  "categories_hierarchy": [
+    "en:plant-based-foods-and-beverages",
+    "en:plant-based-foods",
+    "en:cereals-and-potatoes",
+    "en:breads",
+    "en:sliced-breads",
+    "en:wholemeal-english-bread"
+  ],
+  "link": "",
+  "countries_debug_tags": [
+
+  ],
+  "amino_acids_tags": [
+
+  ],
+  "generic_name_fr": "Pain de mie complet",
+  "labels_lc": "fr",
+  "purchase_places": "Rennes,France",
+  "code": "3029330003533",
+  "photographers_tags": [
+    "andre",
+    "phoenix",
+    "ag55"
+  ],
+  "stores": "Carrefour",
+  "nova_groups_tags": [
+    "en:4-ultra-processed-food-and-drink-products"
+  ],
+  "nutrient_levels_tags": [
+    "en:fat-in-moderate-quantity",
+    "en:saturated-fat-in-low-quantity",
+    "en:sugars-in-moderate-quantity",
+    "en:salt-in-moderate-quantity"
+  ],
+  "expiration_date_debug_tags": [
+
+  ],
+  "packaging": "Sac,Plastique,Clip,Métal",
+  "vitamins_tags": [
+
+  ],
+  "additives_prev_original_tags": [
+
+  ],
+  "additives_old_n": 0,
+  "origins_tags": [
+    "france"
+  ],
+  "emb_codes_debug_tags": [
+
+  ],
+  "product_name_fr": "Crousti Moelleux Complet",
+  "countries_tags": [
+    "en:france"
+  ],
+  "last_modified_t": 1556280105,
+  "brands": "Jacquet",
+  "ingredients_text_fr_debug_tags": [
+
+  ],
+  "informers": [
+    "manu1400",
+    "stephane"
+  ],
+  "image_nutrition_small_url": "https://static.openfoodfacts.org/images/products/302/933/000/3533/nutrition_fr.101.200.jpg",
+  "allergens_from_user": "(fr)Gluten",
+  "id": "3029330003533",
+  "scans_n": 41,
+  "labels": "Sans additifs, Sans huile de palme",
+  "purchase_places_debug_tags": [
+
+  ],
+  "quality_tags": [
+
+  ],
+  "image_nutrition_thumb_url": "https://static.openfoodfacts.org/images/products/302/933/000/3533/nutrition_fr.101.100.jpg",
+  "quantity_debug_tags": [
+
+  ],
+  "purchase_places_tags": [
+    "rennes",
+    "france"
+  ],
+  "ingredients_text_fr": "Farine complète de _blé_ (58%), eau, sucre, huile de colza, farine de _blé_, _gluten de blé_, arôme, sel, levure",
+  "unique_scans_n": 35,
+  "labels_prev_tags": [
+    "en:no-additives",
+    "en:palm-oil-free"
+  ],
+  "labels_tags": [
+    "en:no-additives",
+    "en:palm-oil-free"
+  ],
+  "image_small_url": "https://static.openfoodfacts.org/images/products/302/933/000/3533/front_fr.96.200.jpg",
+  "serving_size": "60.8 g - 1 Tranche",
+  "lc": "fr",
+  "nova_groups": "4",
+  "traces_debug_tags": [
+
+  ],
+  "emb_codes_tags": [
+
+  ],
+  "categories_tags": [
+    "en:plant-based-foods-and-beverages",
+    "en:plant-based-foods",
+    "en:cereals-and-potatoes",
+    "en:breads",
+    "en:sliced-breads",
+    "en:wholemeal-english-bread"
+  ],
+  "additives_old_tags": [
+
+  ],
+  "created_t": 1338046925,
+  "nutrition_data_prepared_per": "100g",
+  "last_edit_dates_tags": [
+    "2019-04-26",
+    "2019-04",
+    "2019"
+  ],
+  "quantity": "730 g (12 Tranches)",
+  "nutrition_data": "on",
+  "nutrition_grades": "a",
+  "misc_tags": [
+    "en:nutrition-no-fruits-vegetables-nuts",
+    "en:nutrition-no-fiber-or-fruits-vegetables-nuts",
+    "en:nutriscore-computed"
+  ],
+  "creator": "andre",
+  "packaging_debug_tags": [
+
+  ],
+  "ingredients_text_with_allergens": "Farine complète de <span class=\"allergen\">blé</span> (58%), eau, sucre, huile de colza, farine de <span class=\"allergen\">blé</span>, <span class=\"allergen\">gluten de blé</span>, arôme, sel, levure",
+  "origins_debug_tags": [
+
+  ],
+  "generic_name_fr_debug_tags": [
+
+  ],
+  "emb_codes_20141016": "",
+  "image_nutrition_url": "https://static.openfoodfacts.org/images/products/302/933/000/3533/nutrition_fr.101.400.jpg",
+  "ingredients_n_tags": [
+    "9",
+    "1-10"
+  ],
+  "checkers_tags": [
+
+  ],
+  "allergens_from_ingredients": "blé, blé, gluten de blé",
+  "additives_debug_tags": [
+
+  ],
+  "image_ingredients_thumb_url": "https://static.openfoodfacts.org/images/products/302/933/000/3533/ingredients_fr.99.100.jpg",
+  "image_ingredients_small_url": "https://static.openfoodfacts.org/images/products/302/933/000/3533/ingredients_fr.99.200.jpg",
+  "lang_debug_tags": [
+
+  ],
+  "nutrition_data_per": "100g",
+  "ingredients_n": "9",
+  "product_name": "Crousti Moelleux Complet",
+  "editors_tags": [
+    "andre",
+    "ag55",
+    "phoenix",
+    "nioff",
+    "manu1400",
+    "stephane",
+    "kiliweb",
+    "openfoodfacts-contributors"
+  ],
+  "last_editor": "kiliweb",
+  "allergens_hierarchy": [
+    "en:gluten"
+  ],
+  "expiration_date": "13/11/2015",
+  "fruits-vegetables-nuts_100g_estimate": 0,
+  "max_imgid": "10",
+  "cities_tags": [
+
+  ],
+  "languages_hierarchy": [
+    "en:french"
+  ],
+  "ingredients_from_palm_oil_n": 0,
+  "ingredients_from_or_that_may_be_from_palm_oil_n": 0,
+  "informers_tags": [
+    "andre",
+    "manu1400",
+    "stephane",
+    "nioff",
+    "phoenix"
+  ],
+  "additives_prev": " [ farine-complete-de-ble -> fr:farine-complete-de-ble  ]  [ farine-complete-de -> fr:farine-complete-de  ]  [ farine-complete -> fr:farine-complete  ]  [ farine -> fr:farine  ]  [ 58 -> fr:58  ]  [ eau -> fr:eau  ]  [ sucre -> fr:sucre  ]  [ huile-de-colza -> fr:huile-de-colza  ]  [ huile-de -> fr:huile-de  ]  [ huile -> fr:huile  ]  [ farine-de-ble -> fr:farine-de-ble  ]  [ farine-de -> fr:farine-de  ]  [ farine -> fr:farine  ]  [ gluten-de-ble -> fr:gluten-de-ble  ]  [ gluten-de -> fr:gluten-de  ]  [ gluten -> fr:gluten  ]  [ arome -> fr:arome  ]  [ sel -> fr:sel  ]  [ levure -> fr:levure  ] ",
+  "ingredients_text_with_allergens_fr": "Farine complète de <span class=\"allergen\">blé</span> (58%), eau, sucre, huile de colza, farine de <span class=\"allergen\">blé</span>, <span class=\"allergen\">gluten de blé</span>, arôme, sel, levure",
+  "additives_tags": [
+
+  ],
+  "minerals_prev_tags": [
+
+  ],
+  "ingredients_original_tags": [
+    "de:vollkornweizenmehl",
+    "en:water",
+    "en:sugar",
+    "en:colza-oil",
+    "en:wheat-flour",
+    "fr:gluten-de-ble",
+    "en:flavouring",
+    "en:salt",
+    "en:yeast"
+  ],
+  "last_modified_by": "kiliweb",
+  "image_front_thumb_url": "https://static.openfoodfacts.org/images/products/302/933/000/3533/front_fr.96.100.jpg",
+  "sortkey": 1556280105,
+  "ingredients": [
+    {
+      "id": "de:vollkornweizenmehl",
+      "text": "Farine complète de _blé_",
+      "rank": 1,
+      "percent": "58"
+    },
+    {
+      "rank": 2,
+      "text": "eau",
+      "id": "en:water"
+    },
+    {
+      "id": "en:sugar",
+      "text": "sucre",
+      "rank": 3
+    },
+    {
+      "id": "en:colza-oil",
+      "text": "huile de colza",
+      "rank": 4
+    },
+    {
+      "text": "farine de _blé_",
+      "id": "en:wheat-flour",
+      "rank": 5
+    },
+    {
+      "rank": 6,
+      "id": "fr:gluten-de-ble",
+      "text": "_gluten de blé_"
+    },
+    {
+      "text": "arôme",
+      "id": "en:flavouring",
+      "rank": 7
+    },
+    {
+      "rank": 8,
+      "text": "sel",
+      "id": "en:salt"
+    },
+    {
+      "rank": 9,
+      "id": "en:yeast",
+      "text": "levure"
+    }
+  ],
+  "unknown_ingredients_n": 0,
+  "correctors": [
+    "manu1400"
+  ],
+  "manufacturing_places_tags": [
+    "france"
+  ],
+  "update_key": "key_1554885245",
+  "additives_prev_tags": [
+
+  ],
+  "nucleotides_prev_tags": [
+
+  ],
+  "nutriments": {
+    "fiber_value": "5.5",
+    "nutrition-score-uk": "-1",
+    "sugars_100g": 7.2,
+    "proteins_100g": 8.9,
+    "carbohydrates_value": "44",
+    "salt_serving": 0.73,
+    "fat_unit": "",
+    "sugars_value": 7.2,
+    "saturated-fat_unit": "",
+    "fat": 4.5,
+    "nutrition-score-fr_100g": "-1",
+    "energy": "1100",
+    "proteins": 8.9,
+    "proteins_serving": 5.41,
+    "sodium": 0.47244094488189,
+    "sodium_100g": 0.47244094488189,
+    "energy_100g": "1100",
+    "proteins_value": 8.9,
+    "saturated-fat_serving": 0.243,
+    "salt_unit": "",
+    "sodium_serving": 0.287,
+    "nutrition-score-fr": "-1",
+    "nova-group_serving": "4",
+    "fiber": 5.5,
+    "fiber_serving": 3.34,
+    "carbohydrates_100g": "44",
+    "fat_value": 4.5,
+    "sugars": 7.2,
+    "nutrition-score-uk_100g": "-1",
+    "nova-group": "4",
+    "sugars_serving": 4.38,
+    "fiber_100g": 5.5,
+    "energy_unit": "kcal",
+    "carbohydrates_unit": "",
+    "saturated-fat": 0.4,
+    "energy_serving": "669",
+    "saturated-fat_100g": 0.4,
+    "salt_100g": 1.2,
+    "carbohydrates_serving": 26.8,
+    "sugars_unit": "",
+    "nova-group_100g": "4",
+    "energy_value": "263",
+    "salt": 1.2,
+    "fat_serving": 2.74,
+    "proteins_unit": "",
+    "saturated-fat_value": 0.4,
+    "fiber_unit": "g",
+    "fat_100g": 4.5,
+    "salt_value": 1.2,
+    "carbohydrates": "44"
+  },
+  "_keywords": [
+    "palme",
+    "vegetaux",
+    "de",
+    "pain",
+    "moelleux",
+    "san",
+    "additif",
+    "france",
+    "complet",
+    "base",
+    "mie",
+    "huile",
+    "et",
+    "aliment",
+    "terre",
+    "origine",
+    "crousti",
+    "jacquet",
+    "boisson",
+    "cereale",
+    "vegetale",
+    "pomme"
+  ],
+  "allergens": "en:gluten"
+}

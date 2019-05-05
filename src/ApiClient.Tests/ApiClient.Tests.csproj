@@ -11,7 +11,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="DataSets\01.json" />
+    <None Remove="DataSets\3029330003533 - Partial01.json" />
+    <None Remove="DataSets\3029330003533.json" />
+    <None Remove="DataSets\Product\3029330003533.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="DataSets\Product\3029330003533-Partial01.json" />
+    <EmbeddedResource Include="DataSets\NutrientLevels\01.json" />
+    <EmbeddedResource Include="DataSets\GetProductResponse\3029330003533.json" />
+    <EmbeddedResource Include="DataSets\Product\3029330003533.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
     <PackageReference Include="xunit" Version="2.4.0" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
   </ItemGroup>
