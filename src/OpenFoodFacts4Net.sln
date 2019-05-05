@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiClient", "ApiClient\ApiC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsoleApp", "TestConsoleApp\TestConsoleApp.csproj", "{B1D43ACF-EB9F-4D75-A0E0-7AE29AED4F80}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiClient.Tests", "ApiClient.Tests\ApiClient.Tests.csproj", "{D1F5829E-C325-4749-A679-A8F35C14A7E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B1D43ACF-EB9F-4D75-A0E0-7AE29AED4F80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1D43ACF-EB9F-4D75-A0E0-7AE29AED4F80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1D43ACF-EB9F-4D75-A0E0-7AE29AED4F80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1F5829E-C325-4749-A679-A8F35C14A7E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1F5829E-C325-4749-A679-A8F35C14A7E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1F5829E-C325-4749-A679-A8F35C14A7E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1F5829E-C325-4749-A679-A8F35C14A7E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
