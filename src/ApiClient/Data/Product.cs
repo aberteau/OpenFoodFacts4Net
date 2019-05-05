@@ -79,6 +79,24 @@ namespace OpenFoodFacts4Net.ApiClient.Data
         [JsonProperty("image_url")]
         public string ImageUrl { get; set; }
 
+        [JsonProperty("emb_codes_tags")]
+        public IEnumerable<string> EmbCodesTags { get; }
+
+        [JsonProperty("states_tags")]
+        public IEnumerable<string> StatesTags { get; }
+
+        [JsonProperty("vitamins_tags")]
+        public IEnumerable<string> VitaminsTags { get; }
+
+        [JsonProperty("minerals_tags")]
+        public IEnumerable<string> MineralsTags { get; }
+
+        [JsonProperty("amino_acids_tags")]
+        public IEnumerable<string> AminoAcidsTags { get; }
+
+        [JsonProperty("other_nutritional_substances_tags")]
+        public IEnumerable<string> OtherNutritionalSubstancesTags { get; }
+
         [JsonProperty("created_t")]
         [JsonConverter(typeof(TimestampConverter))]
         public DateTime CreatedDateTime { get; set; }
