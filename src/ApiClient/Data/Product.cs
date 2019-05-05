@@ -65,7 +65,7 @@ namespace OpenFoodFacts4Net.ApiClient.Data
         public string NutritionGradeFr { get; set; }
 
         [JsonProperty("nutrient_levels")]
-        public NutrientLevels NutrientLevels { get; }
+        public NutrientLevels NutrientLevels { get; set; }
 
         [JsonProperty("countries_tags")]
         public IEnumerable<string> CountriesTags { get; set; }
