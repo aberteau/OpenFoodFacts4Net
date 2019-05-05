@@ -18,7 +18,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="DataSets\Product\3029330003533-Partial01.json" />
     <EmbeddedResource Include="DataSets\NutrientLevels\01.json" />
     <EmbeddedResource Include="DataSets\GetProductResponse\3029330003533.json" />
     <EmbeddedResource Include="DataSets\Product\3029330003533.json" />
