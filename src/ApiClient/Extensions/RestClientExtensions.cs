@@ -12,7 +12,6 @@ namespace OpenFoodFacts4Net.ApiClient.Extensions
         {
             IRestRequest request = new RestRequest("/api/v0/product/{barcode}.json", Method.GET);
             request.AddParameter("barcode", barcode, ParameterType.UrlSegment);
-            request.JsonSerializer = SerializationHelper.CreateNewtonsoftJsonSerializer();
             IRestResponse<GetProductResponse> response = await restClient.ExecuteGetTaskAsync<GetProductResponse>(request);
             return response.Data;
         }
