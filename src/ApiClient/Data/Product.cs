@@ -80,22 +80,22 @@ namespace OpenFoodFacts4Net.ApiClient.Data
         public string ImageUrl { get; set; }
 
         [JsonProperty("emb_codes_tags")]
-        public IEnumerable<string> EmbCodesTags { get; }
+        public IEnumerable<string> EmbCodesTags { get; set; }
 
         [JsonProperty("states_tags")]
-        public IEnumerable<string> StatesTags { get; }
+        public IEnumerable<string> StatesTags { get; set; }
 
         [JsonProperty("vitamins_tags")]
-        public IEnumerable<string> VitaminsTags { get; }
+        public IEnumerable<string> VitaminsTags { get; set; }
 
         [JsonProperty("minerals_tags")]
-        public IEnumerable<string> MineralsTags { get; }
+        public IEnumerable<string> MineralsTags { get; set; }
 
         [JsonProperty("amino_acids_tags")]
-        public IEnumerable<string> AminoAcidsTags { get; }
+        public IEnumerable<string> AminoAcidsTags { get; set; }
 
         [JsonProperty("other_nutritional_substances_tags")]
-        public IEnumerable<string> OtherNutritionalSubstancesTags { get; }
+        public IEnumerable<string> OtherNutritionalSubstancesTags { get; set; }
 
         [JsonProperty("created_t")]
         [JsonConverter(typeof(TimestampConverter))]
