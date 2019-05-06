@@ -4,7 +4,6 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using OpenFoodFacts4Net.Json.Data;
-using RestSharp;
 
 namespace OpenFoodFacts4Net.ApiClient.Extensions
 {
