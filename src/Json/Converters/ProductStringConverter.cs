@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using Newtonsoft.Json;
 
-namespace OpenFoodFacts4Net.ApiClient.Converters
+namespace OpenFoodFacts4Net.Json.Converters
 {
     public class ProductStringConverter
         : JsonConverter<String>

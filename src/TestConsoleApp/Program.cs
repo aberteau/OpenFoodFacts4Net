@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Threading.Tasks;
 using OpenFoodFacts4Net.ApiClient;
-using OpenFoodFacts4Net.ApiClient.Data;
 using OpenFoodFacts4Net.ApiClient.Extensions;
+using OpenFoodFacts4Net.Json.Data;
 using RestSharp;
 
 namespace OpenFoodFacts4Net.TestConsoleApp

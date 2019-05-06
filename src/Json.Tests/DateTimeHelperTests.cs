@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace OpenFoodFacts4Net.ApiClient.Tests
+namespace OpenFoodFacts4Net.Json.Tests
 {
     public class DateTimeHelperTests
     {

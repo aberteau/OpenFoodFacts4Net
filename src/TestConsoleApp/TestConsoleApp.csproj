@@ -62,6 +62,10 @@
       <Project>{2D16399E-1040-418C-B8F2-C3790E6537F1}</Project>
       <Name>ApiClient</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Json\Json.csproj">
+      <Project>{b102eb7e-82cd-493b-99f4-5e2a79157447}</Project>
+      <Name>Json</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

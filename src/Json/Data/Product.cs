@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 using Newtonsoft.Json;
-using OpenFoodFacts4Net.ApiClient.Converters;
+using OpenFoodFacts4Net.Json.Converters;
 
-namespace OpenFoodFacts4Net.ApiClient.Data
+namespace OpenFoodFacts4Net.Json.Data
 {
     public class Product
     {

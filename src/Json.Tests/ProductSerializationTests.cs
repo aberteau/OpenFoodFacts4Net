@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Newtonsoft.Json;
-using OpenFoodFacts4Net.ApiClient.Data;
+﻿using Newtonsoft.Json;
+using OpenFoodFacts4Net.Json.Data;
 using Xunit;
 
-namespace OpenFoodFacts4Net.ApiClient.Tests
+namespace OpenFoodFacts4Net.Json.Tests
 {
     public class ProductSerializationTests
     {

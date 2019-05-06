@@ -1,6 +1,4 @@
-﻿using System.Runtime.Serialization;
-
-namespace OpenFoodFacts4Net.ApiClient.Data
+﻿namespace OpenFoodFacts4Net.Json.Data
 {
     public enum NutrimentLevel
     {

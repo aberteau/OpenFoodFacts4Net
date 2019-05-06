@@ -1,8 +1,7 @@
-﻿using System;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace OpenFoodFacts4Net.ApiClient.Data
+namespace OpenFoodFacts4Net.Json.Data
 {
     public class NutrientLevels
     {

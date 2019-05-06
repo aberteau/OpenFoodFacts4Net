@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using System.Reflection;
 
-namespace OpenFoodFacts4Net.ApiClient.Tests
+namespace OpenFoodFacts4Net.Json.Tests
 {
     class DataSetHelper
     {

@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace OpenFoodFacts4Net.ApiClient
+namespace OpenFoodFacts4Net.Json
 {
     public class DateTimeHelper
     {

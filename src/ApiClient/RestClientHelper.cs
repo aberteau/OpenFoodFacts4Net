@@ -1,4 +1,5 @@
 ﻿using System;
+using OpenFoodFacts4Net.Json;
 using RestSharp;
 
 namespace OpenFoodFacts4Net.ApiClient
