@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
 using OpenFoodFacts4Net.Json.Converters;
 
 namespace OpenFoodFacts4Net.Json.Data
@@ -100,14 +101,14 @@ namespace OpenFoodFacts4Net.Json.Data
         public IEnumerable<string> OtherNutritionalSubstancesTags { get; set; }
 
         [JsonProperty("created_t")]
-        [JsonConverter(typeof(TimestampConverter))]
+        [JsonConverter(typeof(UnixDateTimeConverter))]
         public DateTime CreatedDateTime { get; set; }
 
         [JsonProperty("creator")]
         public string Creator { get; set; }
 
         [JsonProperty("last_modified_t")]
-        [JsonConverter(typeof(TimestampConverter))]
+        [JsonConverter(typeof(UnixDateTimeConverter))]
         public DateTime LastModifiedTime { get; set; }
 
         [JsonProperty("editors_tags")]
