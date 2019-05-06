@@ -9,9 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsoleApp", "TestConso
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiClient.Tests", "ApiClient.Tests\ApiClient.Tests.csproj", "{D1F5829E-C325-4749-A679-A8F35C14A7E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Json", "Json\Json.csproj", "{B102EB7E-82CD-493B-99F4-5E2A79157447}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Json", "Json\Json.csproj", "{B102EB7E-82CD-493B-99F4-5E2A79157447}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Json.Tests", "Json.Tests\Json.Tests.csproj", "{9FCF9DD2-C02B-4E1B-A733-2C52E02A4992}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Json.Tests", "Json.Tests\Json.Tests.csproj", "{9FCF9DD2-C02B-4E1B-A733-2C52E02A4992}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{2B777A9D-CD0C-4497-BAB5-18D0CA1611AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,6 +44,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D1F5829E-C325-4749-A679-A8F35C14A7E8} = {2B777A9D-CD0C-4497-BAB5-18D0CA1611AA}
+		{9FCF9DD2-C02B-4E1B-A733-2C52E02A4992} = {2B777A9D-CD0C-4497-BAB5-18D0CA1611AA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {388B247C-E64F-4950-8E95-130510637C66}
