@@ -1,9 +1,14 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>OpenFoodFacts4Net.Json</AssemblyName>
     <RootNamespace>OpenFoodFacts4Net.Json</RootNamespace>
+    <PackageId>OpenFoodFacts4Net.Json</PackageId>
+    <PackageVersion>0.1.0</PackageVersion>
+    <Authors>Amael BERTEAU</Authors>
+    <Description>OpenFoodFacts4Net.Json</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>
