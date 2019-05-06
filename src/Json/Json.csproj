@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>OpenFoodFacts4Net.Json</AssemblyName>
+    <RootNamespace>OpenFoodFacts4Net.Json</RootNamespace>
+  </PropertyGroup>
+
+</Project>
