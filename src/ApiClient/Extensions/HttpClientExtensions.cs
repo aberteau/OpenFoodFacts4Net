@@ -11,7 +11,8 @@ namespace OpenFoodFacts4Net.ApiClient.Extensions
     {
         public static async Task<GetProductResponse> GetProductAsync(this HttpClient httpClient, String barcode)
         {
-            IResponse<GetProductResponse> response = await httpClient.GetAsync<GetProductResponse>($"/api/v0/product/{barcode}.json");
+            string requestUri = $"/api/v0/product/{barcode}.json";
+            IResponse<GetProductResponse> response = await httpClient.GetAsync<GetProductResponse>(requestUri);
             return response.Data;
         }
     }
