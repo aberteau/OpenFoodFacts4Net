@@ -20,12 +20,6 @@ namespace OpenFoodFacts4Net.ApiClient
             return restClient;
         }
 
-        public static RestClient Create()
-        {
-            RestClient restClient = Create("https://fr.openfoodfacts.org/", "OpenFoodFacts4Net.ApiClient - Version 0.1 - https://github.com/aberteau/OpenFoodFacts4Net");
-            return restClient;
-        }
-
         private static NewtonsoftJsonSerializer CreateNewtonsoftJsonSerializer()
         {
             return SerializationHelper.CreateNewtonsoftJsonSerializer();

@@ -18,7 +18,8 @@ namespace OpenFoodFacts4Net.TestConsoleApp
 
         private static async Task ReadProductAsync(string barcode)
         {
-            RestClient restClient = RestClientHelper.Create();
+            String userAgent = UserAgentHelper.GetUserAgent("OpenFoodFacts4Net.ApiClient.TestConsoleApp", ".Net Platform", "0.1", Constants.ProjectUrl);
+            RestClient restClient = RestClientHelper.Create(Constants.BaseUrl, userAgent);
             GetProductResponse productResponse = await restClient.GetProductAsync(barcode);
             Console.WriteLine(productResponse.Product.GenericName);
         }
