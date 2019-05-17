@@ -41,7 +41,9 @@ namespace OpenFoodFacts4Net.Csv.Data
         public String AllergensFr { get; set; }
         public String Traces { get; set; }
         public String TracesTags { get; set; }
+        public String TracesFr { get; set; }
         public String ServingSize { get; set; }
+        public String ServingQuantity { get; set; }
         public String NoNutriments { get; set; }
         public String AdditivesN { get; set; }
         public String Additives { get; set; }
@@ -53,8 +55,8 @@ namespace OpenFoodFacts4Net.Csv.Data
         public String IngredientsThatMayBeFromPalmOilN { get; set; }
         public String IngredientsThatMayBeFromPalmOil { get; set; }
         public String IngredientsThatMayBeFromPalmOilTags { get; set; }
-        public String NutritionGradeUk { get; set; }
         public String NutritionGradeFr { get; set; }
+        public String NovaGroup { get; set; }
         public String PnnsGroups1 { get; set; }
         public String PnnsGroups2 { get; set; }
         public String States { get; set; }
@@ -64,7 +66,12 @@ namespace OpenFoodFacts4Net.Csv.Data
         public String MainCategoryFr { get; set; }
         public String ImageUrl { get; set; }
         public String ImageSmallUrl { get; set; }
+        public String ImageIngredientsUrl { get; set; }
+        public String ImageIngredientsSmallUrl { get; set; }
+        public String ImageNutritionUrl { get; set; }
+        public String ImageNutritionSmallUrl { get; set; }
         public String Energy_100G { get; set; }
+        public String EnergyFromFat_100G { get; set; }
         public String Fat_100G { get; set; }
         public String SaturatedFat_100G { get; set; }
         public String ButyricAcid_100G { get; set; }
@@ -120,6 +127,7 @@ namespace OpenFoodFacts4Net.Csv.Data
         public String Sodium_100G { get; set; }
         public String Alcohol_100G { get; set; }
         public String VitaminA_100G { get; set; }
+        public String BetaCarotene_100G { get; set; }
         public String VitaminD_100G { get; set; }
         public String VitaminE_100G { get; set; }
         public String VitaminK_100G { get; set; }
@@ -129,6 +137,7 @@ namespace OpenFoodFacts4Net.Csv.Data
         public String VitaminPp_100G { get; set; }
         public String VitaminB6_100G { get; set; }
         public String VitaminB9_100G { get; set; }
+        public String Folates_100G { get; set; }
         public String VitaminB12_100G { get; set; }
         public String Biotin_100G { get; set; }
         public String PantothenicAcid_100G { get; set; }
@@ -152,9 +161,22 @@ namespace OpenFoodFacts4Net.Csv.Data
         public String Taurine_100G { get; set; }
         public String Ph_100G { get; set; }
         public String FruitsVegetablesNuts_100G { get; set; }
+        public String FruitsVegetablesNutsDried_100G { get; set; }
+        public String FruitsVegetablesNutsEstimate_100G { get; set; }
         public String CollagenMeatProteinRatio_100G { get; set; }
+        public String Cocoa_100G { get; set; }
+        public String Chlorophyl_100G { get; set; }
         public String CarbonFootprint_100G { get; set; }
+        public String CarbonFootprintFromMeatOrFish_100G { get; set; }
         public String NutritionScoreFr_100G { get; set; }
         public String NutritionScoreUk_100G { get; set; }
+        public String GlycemicIndex_100G { get; set; }
+        public String WaterHardness_100G { get; set; }
+        public String Choline_100G { get; set; }
+        public String Phylloquinone_100G { get; set; }
+        public String BetaGlucan_100G { get; set; }
+        public String Inositol_100G { get; set; }
+        public String Carnitine_100G { get; set; }
+
     }
 }

@@ -24,7 +24,8 @@ namespace OpenFoodFacts4Net.Csv
             var csv = new CsvReader(textReader);
             csv.Configuration.RegisterClassMap<ProductClassMap>();
             csv.Configuration.Delimiter = CsvFileHelper.Separator.ToString();
-            IEnumerable<Product> products = csv.GetRecords<Product>().ToList();
+            csv.Configuration.BadDataFound = null;
+            IEnumerable<Product> products = csv.GetRecords<Product>();
             return products;
         }
 
