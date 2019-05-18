@@ -33,11 +33,19 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CsvHelper, Version=12.0.0.0, Culture=neutral, PublicKeyToken=8c4959082be5c823, processorArchitecture=MSIL">
+      <HintPath>..\packages\CsvHelper.12.1.2\lib\net45\CsvHelper.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.ValueTuple, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.4.0\lib\net461\System.ValueTuple.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -58,6 +66,10 @@
     <ProjectReference Include="..\ApiClient\ApiClient.csproj">
       <Project>{2D16399E-1040-418C-B8F2-C3790E6537F1}</Project>
       <Name>ApiClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Csv\Csv.csproj">
+      <Project>{5CA750E6-C210-4C76-A899-1FE93261D8EB}</Project>
+      <Name>Csv</Name>
     </ProjectReference>
     <ProjectReference Include="..\Json\Json.csproj">
       <Project>{b102eb7e-82cd-493b-99f4-5e2a79157447}</Project>
