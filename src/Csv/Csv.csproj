@@ -5,8 +5,9 @@
     <AssemblyName>OpenFoodFacts4Net.Csv</AssemblyName>
     <RootNamespace>OpenFoodFacts4Net.Csv</RootNamespace>
     <PackageId>OpenFoodFacts4Net.Csv</PackageId>
-    <PackageVersion>0.1.0</PackageVersion>
+    <PackageVersion>0.2.0</PackageVersion>
     <PackageProjectUrl>https://github.com/aberteau/OpenFoodFacts4Net/</PackageProjectUrl>
+    <PackageTags>OpenFoodFacts Open Food Facts</PackageTags>
     <Authors>Amael BERTEAU</Authors>
     <Description>OpenFoodFacts4Net.Csv</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
