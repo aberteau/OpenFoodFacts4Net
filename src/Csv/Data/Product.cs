@@ -7,7 +7,9 @@ namespace OpenFoodFacts4Net.Csv.Data
         public String Code { get; set; }
         public String Url { get; set; }
         public String Creator { get; set; }
+        public String CreatedTimestamp { get; set; }
         public String Created { get; set; }
+        public String LastModifiedTimestamp { get; set; }
         public String LastModified { get; set; }
         public String ProductName { get; set; }
         public String GenericName { get; set; }
@@ -177,6 +179,5 @@ namespace OpenFoodFacts4Net.Csv.Data
         public String BetaGlucan_100G { get; set; }
         public String Inositol_100G { get; set; }
         public String Carnitine_100G { get; set; }
-
     }
 }

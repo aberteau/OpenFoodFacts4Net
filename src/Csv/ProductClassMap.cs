@@ -11,7 +11,9 @@ namespace OpenFoodFacts4Net.Csv
             Map(m => m.Code).Index(0);
             Map(m => m.Url).Index(1);
             Map(m => m.Creator).Index(2);
+            Map(m => m.CreatedTimestamp).Index(3);
             Map(m => m.Created).Index(4);
+            Map(m => m.LastModifiedTimestamp).Index(5);
             Map(m => m.LastModified).Index(6);
             Map(m => m.ProductName).Index(7);
             Map(m => m.GenericName).Index(8);
