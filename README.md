@@ -1,6 +1,7 @@
 # OpenFoodFacts4Net
 
-.Net Client for OpenFoodFacts API<br />
+.Net components for OpenFoodFacts (API Client, CSV data reader, ...)
+
 Target Platform : .Net Standard 2.0
 
 ## Projects
