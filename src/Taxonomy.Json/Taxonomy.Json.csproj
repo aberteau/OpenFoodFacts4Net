@@ -1,9 +1,17 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>OpenFoodFacts4Net.Taxonomy.Json</AssemblyName>
     <RootNamespace>OpenFoodFacts4Net.Taxonomy.Json</RootNamespace>
+    <PackageId>OpenFoodFacts4Net.Taxonomy.Json</PackageId>
+    <PackageVersion>0.1.0</PackageVersion>
+    <PackageProjectUrl>https://github.com/aberteau/OpenFoodFacts4Net/</PackageProjectUrl>
+    <Authors>Amael BERTEAU</Authors>
+    <Description>OpenFoodFacts4Net.Taxonomy.Json</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>First release</PackageReleaseNotes>
+    <Copyright>Copyright 2019 (c) Amael BERTEAU. All rights reserved.</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
