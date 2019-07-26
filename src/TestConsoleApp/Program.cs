@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using OpenFoodFacts4Net.ApiClient;
 using OpenFoodFacts4Net.Csv;
 using OpenFoodFacts4Net.Json.Data;
+using OpenFoodFacts4Net.Taxonomy.Json;
+using OpenFoodFacts4Net.Taxonomy.Json.Data;
 
 namespace OpenFoodFacts4Net.TestConsoleApp
 {
@@ -13,15 +15,22 @@ namespace OpenFoodFacts4Net.TestConsoleApp
     {
         private const string OffCsvFilePath = @"E:\Temp\OpenFoodFacts\fr.openfoodfacts.org.products.csv";
         private const string HeaderOutputFilePath = @"E:\Temp\OpenFoodFacts\csv_headers.txt";
+        private const string CategoriesTaxonomyJsonFilePath = @"F:\UserData\Amael\OneDrive\Projets\Suppliz\OpenFoodFacts\Data\categories.json";
 
         static void Main(string[] args)
         {
-            string barcode = "3029330003533";
+            //string barcode = "3029330003533";
             //GetProductAsync(barcode).Wait();
             //WriteCsvHeaders(OffCsvFilePath);
-            ReadCsv(OffCsvFilePath);
-
+            //ReadCsv(OffCsvFilePath);
+            ReadCategoriesTaxonomy(CategoriesTaxonomyJsonFilePath);
             Console.ReadLine();
+        }
+
+        private static void ReadCategoriesTaxonomy(string filePath)
+        {
+            string jsonContent = File.ReadAllText(filePath);
+            IDictionary<String, Taxon> data = TaxonomySerializer.Deserialize(jsonContent);
         }
 
         private static async Task GetProductAsync(string barcode)

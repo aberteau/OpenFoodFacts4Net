@@ -75,6 +75,10 @@
       <Project>{b102eb7e-82cd-493b-99f4-5e2a79157447}</Project>
       <Name>Json</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Taxonomy.Json\Taxonomy.Json.csproj">
+      <Project>{5B72BAE0-903E-407D-834E-92B314BD3D35}</Project>
+      <Name>Taxonomy.Json</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
