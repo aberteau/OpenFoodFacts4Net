@@ -6,13 +6,13 @@ Target Platform : .Net Standard 2.0
 
 ## Projects
 
-|Name|Description|Type|TargetFramework
-|------|---|---|---|
-|Json|JSON Serialization|dll|netstandard2.0
-|ApiClient|API Client|dll|netstandard2.0
-|Csv|CSV Dump Reader|dll|netstandard2.0
-|Taxonomy.Json|JSON Taxonomy Serialization|dll|netstandard2.0
-|TestConsoleApp|Test Console App  |Console Application|.Net Framework 4.6.2
+| Name           | Description                 | Type                | TargetFramework |
+|----------------|-----------------------------|---------------------|-----------------|
+| Json           | JSON Serialization          | Class Library       | netstandard2.0  |
+| ApiClient      | API Client                  | Class Library       | netstandard2.0  |
+| Csv            | CSV Dump Reader             | Class Library       | netstandard2.0  |
+| Taxonomy.Json  | JSON Taxonomy Serialization | Class Library       | netstandard2.0  |
+| TestConsoleApp | Test Console App            | Console Application | net6.0          |
 
 ## Getting Started
 ### Prerequisites
