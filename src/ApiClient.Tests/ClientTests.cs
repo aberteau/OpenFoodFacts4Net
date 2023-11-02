@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
+using FluentAssertions;
 using OpenFoodFacts4Net.Json.Data;
 using Xunit;
 
@@ -16,7 +17,7 @@ namespace OpenFoodFacts4Net.ApiClient.Tests
             Client client = new Client(Constants.BaseUrl, userAgent);
             GetProductResponse productResponse = await client.GetProductAsync(barcode);
 
-            Assert.Equal("Pain de mie complet", productResponse.Product.GenericName);
+            productResponse.Product.GenericName.Should().Be("Pain de mie complet");
         }
     }
 }

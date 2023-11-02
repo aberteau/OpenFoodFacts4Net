@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using FluentAssertions;
+using Newtonsoft.Json;
 using OpenFoodFacts4Net.Json.Data;
 using Xunit;
 
@@ -12,10 +13,10 @@ namespace OpenFoodFacts4Net.Json.Tests
             string productJson = DataSetHelper.ReadFileContent("NutrientLevels.01.json");
             NutrientLevels nutrientLevels = JsonConvert.DeserializeObject<NutrientLevels>(productJson);
 
-            Assert.Equal(NutrimentLevel.Moderate, nutrientLevels.Salt);
-            Assert.Equal(NutrimentLevel.Low, nutrientLevels.SaturatedFat);
-            Assert.Equal(NutrimentLevel.High, nutrientLevels.Fat);
-            Assert.Equal(NutrimentLevel.Moderate, nutrientLevels.Sugars);
+            nutrientLevels.Salt.Should().Be(NutrimentLevel.Moderate);
+            nutrientLevels.SaturatedFat.Should().Be(NutrimentLevel.Low);
+            nutrientLevels.Fat.Should().Be(NutrimentLevel.High);
+            nutrientLevels.Sugars.Should().Be(NutrimentLevel.Moderate);
         }
     }
 }
