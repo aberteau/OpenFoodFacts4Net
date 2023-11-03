@@ -1,6 +1,6 @@
 ﻿namespace OpenFoodFacts4Net.Json.Data
 {
-    public enum NutrimentLevel
+    public enum NutrientLevel
     {
         Low,
         Moderate,
