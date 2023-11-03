@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using FluentAssertions;
 using Newtonsoft.Json;
 using OpenFoodFacts4Net.Json.Data;
@@ -16,6 +17,35 @@ namespace OpenFoodFacts4Net.Json.Tests
 
             product.Categories.Should().Be("Desserts,Frozen foods");
             product.GenericName.Should().Be("Pâte à tartiner aux noisettes et au cacao");
+            
+            product.Ingredients.Should().HaveCount(7);
+            Ingredient[] ingredientsArray = product.Ingredients.ToArray();
+            
+            Ingredient ingredient0 = ingredientsArray[0];
+            ingredient0.CiqualFoodCode.Should().BeNull();
+            ingredient0.FromPalmOil.Should().BeNull();
+            ingredient0.Id.Should().Be("en:sugar");
+            ingredient0.Percent.Should().BeNull();
+            ingredient0.PercentEstimate.Should().Be(39.275);
+            ingredient0.PercentMax.Should().Be(57.9);
+            ingredient0.PercentMin.Should().Be(20.65);
+            ingredient0.Text.Should().Be("sucre");
+            ingredient0.Vegan.Should().Be("yes");
+            ingredient0.Vegetarian.Should().Be("yes");
+
+            Ingredient ingredient1 = ingredientsArray[1];
+            ingredient1.CiqualFoodCode.Should().Be("16129");
+            ingredient1.FromPalmOil.Should().Be("yes");
+            ingredient1.Id.Should().Be("en:palm-oil");
+
+            Ingredient ingredient2 = ingredientsArray[2];
+            ingredient2.Id.Should().Be("en:hazelnut-oil");
+            ingredient2.Percent.Should().Be(13);
+
+            Ingredient ingredient5 = ingredientsArray[5];
+            ingredient5.Id.Should().Be("en:emulsifier");
+            ingredient5.Ingredients.Should().HaveCount(1);
+
             product.NutrientLevels.Should().NotBeNull();
         }
 
