@@ -5,13 +5,12 @@
     <AssemblyName>OpenFoodFacts4Net.Json</AssemblyName>
     <RootNamespace>OpenFoodFacts4Net.Json</RootNamespace>
     <PackageId>OpenFoodFacts4Net.Json</PackageId>
-    <PackageVersion>0.2.0</PackageVersion>
+    <PackageVersion>1.0.0</PackageVersion>
     <PackageProjectUrl>https://github.com/aberteau/OpenFoodFacts4Net/</PackageProjectUrl>
     <Authors>Amael BERTEAU</Authors>
     <Description>OpenFoodFacts4Net.Json</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <PackageReleaseNotes>First release</PackageReleaseNotes>
-    <Copyright>Copyright 2019 (c) Amael BERTEAU. All rights reserved.</Copyright>
+    <Copyright>Copyright 2023 (c) Amael BERTEAU. All rights reserved.</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
