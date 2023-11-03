@@ -73,6 +73,9 @@ namespace OpenFoodFacts4Net.Json.Data
         [JsonProperty("image_url")]
         public string ImageUrl { get; set; }
 
+        [JsonProperty("ingredients")]
+        public IEnumerable<Ingredient> Ingredients { get; set; }
+
         [JsonProperty("ingredients_from_or_that_may_be_from_palm_oil_n")]
         public long IngredientsFromOrThatMayBeFromPalmOilN { get; set; }
 
