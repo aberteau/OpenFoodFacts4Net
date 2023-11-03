@@ -20,6 +20,9 @@ namespace OpenFoodFacts4Net.Json.Data
         [JsonProperty("brands_tags")]
         public IEnumerable<string> BrandsTags { get; set; }
 
+        [JsonProperty("categories")]
+        public string Categories { get; set; }
+
         [JsonProperty("categories_tags")]
         public IEnumerable<string> CategoriesTags { get; set; }
 

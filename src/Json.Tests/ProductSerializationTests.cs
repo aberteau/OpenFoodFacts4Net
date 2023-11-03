@@ -14,6 +14,7 @@ namespace OpenFoodFacts4Net.Json.Tests
             string json = DataSetHelper.ReadFileContent("Product.3017620422003_2311030018.json");
             Product product = JsonConvert.DeserializeObject<Product>(json);
 
+            product.Categories.Should().Be("Desserts,Frozen foods");
             product.GenericName.Should().Be("Pâte à tartiner aux noisettes et au cacao");
             product.NutrientLevels.Should().NotBeNull();
         }
