@@ -13,10 +13,10 @@ namespace OpenFoodFacts4Net.Json.Tests
             string productJson = DataSetHelper.ReadFileContent("NutrientLevels.01.json");
             NutrientLevels nutrientLevels = JsonConvert.DeserializeObject<NutrientLevels>(productJson);
 
-            nutrientLevels.Salt.Should().Be(NutrimentLevel.Moderate);
-            nutrientLevels.SaturatedFat.Should().Be(NutrimentLevel.Low);
-            nutrientLevels.Fat.Should().Be(NutrimentLevel.High);
-            nutrientLevels.Sugars.Should().Be(NutrimentLevel.Moderate);
+            nutrientLevels.Salt.Should().Be(NutrientLevel.Moderate);
+            nutrientLevels.SaturatedFat.Should().Be(NutrientLevel.Low);
+            nutrientLevels.Fat.Should().Be(NutrientLevel.High);
+            nutrientLevels.Sugars.Should().Be(NutrientLevel.Moderate);
         }
     }
 }

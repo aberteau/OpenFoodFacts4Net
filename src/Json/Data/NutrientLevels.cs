@@ -7,18 +7,18 @@ namespace OpenFoodFacts4Net.Json.Data
     {
         [JsonProperty("salt")]
         [JsonConverter(typeof(StringEnumConverter))]
-        public NutrimentLevel Salt { get; set; }
+        public NutrientLevel Salt { get; set; }
 
         [JsonProperty("fat")]
         [JsonConverter(typeof(StringEnumConverter))]
-        public NutrimentLevel Fat { get; set; }
+        public NutrientLevel Fat { get; set; }
 
         [JsonProperty("sugars")]
         [JsonConverter(typeof(StringEnumConverter))]
-        public NutrimentLevel Sugars { get; set; }
+        public NutrientLevel Sugars { get; set; }
 
         [JsonProperty("saturated-fat")]
         [JsonConverter(typeof(StringEnumConverter))]
-        public NutrimentLevel SaturatedFat { get; set; }
+        public NutrientLevel SaturatedFat { get; set; }
     }
 }
