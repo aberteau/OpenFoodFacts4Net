@@ -6,13 +6,13 @@ Target Platform : .Net Standard 2.0
 
 ## Projects
 
-| Name           | Description                 | Type                | TargetFramework |
-|----------------|-----------------------------|---------------------|-----------------|
-| Json           | JSON Serialization          | Class Library       | netstandard2.0  |
-| ApiClient      | API Client                  | Class Library       | netstandard2.0  |
-| Csv            | CSV Dump Reader             | Class Library       | netstandard2.0  |
-| Taxonomy.Json  | JSON Taxonomy Serialization | Class Library       | netstandard2.0  |
-| TestConsoleApp | Test Console App            | Console Application | net6.0          |
+| Name           | Description                 | Type                | TargetFramework | NuGet                                                                    |
+|----------------|-----------------------------|---------------------|-----------------|--------------------------------------------------------------------------|
+| Json           | JSON Serialization          | Class Library       | netstandard2.0  | ![Nuget](https://img.shields.io/nuget/v/OpenFoodFacts4Net.Json)          |
+| ApiClient      | API Client                  | Class Library       | netstandard2.0  | ![Nuget](https://img.shields.io/nuget/v/OpenFoodFacts4Net.ApiClient)     |
+| Csv            | CSV Dump Reader             | Class Library       | netstandard2.0  | ![Nuget](https://img.shields.io/nuget/v/OpenFoodFacts4Net.Csv)           |
+| Taxonomy.Json  | JSON Taxonomy Serialization | Class Library       | netstandard2.0  | ![Nuget](https://img.shields.io/nuget/v/OpenFoodFacts4Net.Taxonomy.Json) |
+| TestConsoleApp | Test Console App            | Console Application | net6.0          |                                                                          |
 
 ## Getting Started
 ### Prerequisites
