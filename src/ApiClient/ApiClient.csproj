@@ -5,7 +5,7 @@
     <AssemblyName>OpenFoodFacts4Net.ApiClient</AssemblyName>
     <RootNamespace>OpenFoodFacts4Net.ApiClient</RootNamespace>
     <PackageId>OpenFoodFacts4Net.ApiClient</PackageId>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>2.0.0</PackageVersion>
     <PackageProjectUrl>https://github.com/aberteau/OpenFoodFacts4Net/</PackageProjectUrl>
     <Authors>Amael BERTEAU</Authors>
     <Description>OpenFoodFacts4Net.ApiClient</Description>
