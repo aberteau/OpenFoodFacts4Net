@@ -24,7 +24,7 @@ static void ReadCategoriesTaxonomy(string filePath)
 static async Task GetProductAsync(string barcode)
 {
     String userAgent = UserAgentHelper.GetUserAgent("OpenFoodFacts4Net.ApiClient.TestConsoleApp", ".Net Platform", "0.1", null);
-    Client client = new Client(Constants.BaseUrl, userAgent);
+    Client client = new Client(userAgent);
     GetProductResponse productResponse = await client.GetProductAsync(barcode);
     Console.WriteLine(productResponse.Product.GenericName);
 }
