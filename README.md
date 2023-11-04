@@ -15,9 +15,27 @@ Target Platform : .Net Standard 2.0
 | TestConsoleApp | Test Console App            | Console Application | net6.0          |                                                                          |
 
 ## Getting Started
-### Prerequisites
+Before you can use OpenFoodFacts4Net.ApiClient in your application, you need to add the NuGet package. You can do it using your IDE or the command line:
 
-Visual Studio
+```
+dotnet add package OpenFoodFacts4Net.ApiClient
+```
+
+### Basic Usage
+(See [Samples.ApiClient.ConsoleApp](src/Samples.ApiClient.ConsoleApp/Program.cs))
+```
+Client client = new Client();
+string barcode = "3017620422003";
+GetProductResponse productResponse = await client.GetProductAsync(barcode);
+```
+
+If you want to set the `User-Agent` header :
+```
+String userAgent = UserAgentHelper.GetUserAgent("applicationName", "system", "version", "projectUrl");
+Client client = new Client(userAgent);
+string barcode = "3017620422003";
+GetProductResponse productResponse = await client.GetProductAsync(barcode);
+```
 
 ## Authors
 
