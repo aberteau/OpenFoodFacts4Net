@@ -113,6 +113,9 @@ namespace OpenFoodFacts4Net.Json.Data
         [JsonProperty("no_nutrition_data")]
         public string NoNutritionData { get; set; }
 
+        [JsonProperty("nova_group")]
+        public int NovaGroup { get; set; }
+
         [JsonProperty("nova_groups")]
         public string NovaGroups { get; set; }
 

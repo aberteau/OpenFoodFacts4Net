@@ -46,6 +46,8 @@ namespace OpenFoodFacts4Net.Json.Tests
             ingredient5.Id.Should().Be("en:emulsifier");
             ingredient5.Ingredients.Should().HaveCount(1);
 
+            product.NovaGroup.Should().Be(4);
+
             product.NutrientLevels.Should().NotBeNull();
         }
 
