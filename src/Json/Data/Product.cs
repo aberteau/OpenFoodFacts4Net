@@ -45,6 +45,9 @@ namespace OpenFoodFacts4Net.Json.Data
         [JsonProperty("editors_tags")]
         public IEnumerable<string> EditorsTags { get; set; }
 
+        [JsonProperty("emb_codes")]
+        public string EmbCodes { get; set; }
+
         [JsonProperty("emb_codes_tags")]
         public IEnumerable<string> EmbCodesTags { get; set; }
 

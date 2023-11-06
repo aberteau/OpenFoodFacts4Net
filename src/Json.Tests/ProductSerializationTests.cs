@@ -16,6 +16,7 @@ namespace OpenFoodFacts4Net.Json.Tests
             Product product = JsonConvert.DeserializeObject<Product>(json);
 
             product.Categories.Should().Be("Desserts,Frozen foods");
+            product.EmbCodes.Should().Be("FR 42.129.001 EC");
             product.GenericName.Should().Be("Pâte à tartiner aux noisettes et au cacao");
             
             product.Ingredients.Should().HaveCount(7);
