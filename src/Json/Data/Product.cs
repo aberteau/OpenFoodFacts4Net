@@ -125,6 +125,9 @@ namespace OpenFoodFacts4Net.Json.Data
         [JsonProperty("nutrient_levels")]
         public NutrientLevels NutrientLevels { get; set; }
 
+        [JsonProperty("nutriments")]
+        public Nutriments Nutriments { get; set; }
+
         [JsonProperty("nutrition_data_per")]
         public string NutritionDataPer { get; set; }
 
