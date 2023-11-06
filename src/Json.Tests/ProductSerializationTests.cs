@@ -49,6 +49,8 @@ namespace OpenFoodFacts4Net.Json.Tests
             product.NovaGroup.Should().Be(4);
 
             product.NutrientLevels.Should().NotBeNull();
+
+            product.NutritionGrades.Should().Be("e");
         }
 
         [Fact]

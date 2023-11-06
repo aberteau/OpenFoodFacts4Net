@@ -128,6 +128,9 @@ namespace OpenFoodFacts4Net.Json.Data
         [JsonProperty("nutrition_grade_fr")]
         public string NutritionGradeFr { get; set; }
 
+        [JsonProperty("nutrition_grades")]
+        public string NutritionGrades { get; set; }
+
         [JsonProperty("other_information")]
         public string OtherInformation { get; set; }
 
